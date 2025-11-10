@@ -11,7 +11,7 @@
         android:id="@+id/navigate_to_second_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Navigate to second activity"
+        android:text="Navigate to secondary activity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
