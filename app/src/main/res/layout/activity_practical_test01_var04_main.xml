@@ -34,8 +34,10 @@
             android:text=""
             android:textSize="16sp" />
 
+
+
         <EditText
-            android:id="@+id/input2"
+            android:id="@+id/input1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -49,16 +51,7 @@
     </LinearLayout>
 
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="70dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="336dp"
-        android:padding="7dp"
-        android:text=""
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="112dp" />
+
 
     <Button
         android:id="@+id/display_information"
@@ -71,8 +64,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="336dp"
+        android:padding="7dp"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="114dp" />
+
     <EditText
-        android:id="@+id/input1"
+        android:id="@+id/input2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -81,7 +87,21 @@
         android:saveEnabled="false"
         android:text="0"
         tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="112dp" />
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="text"
+        android:saveEnabled="true"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235"
+        tools:layout_editor_absoluteX="5dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
