@@ -1,1 +1,2 @@
 # PracticalTest01Var04
+Nume: DUMENICA Prenume: ALEXANDRU-SEBASTIAN Grupa: 344C2
